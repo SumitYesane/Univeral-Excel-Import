@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Local runtime data
+storage/
+errors/
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary/generated files
+tmp_*
+fixed_errors.xlsx
+.~lock.*
+
+# Environment / editor
+.env
+frontend/.env
+.vscode/
+.idea/
+*.log

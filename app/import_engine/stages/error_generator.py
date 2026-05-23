@@ -1,0 +1,1 @@
+# Stage wrapper for error generation
